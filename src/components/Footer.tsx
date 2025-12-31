@@ -117,7 +117,7 @@ export default function Footer() {
 
                 {/* Bottom */}
                 <div className="pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-                    <p>&copy; 2024 HABI Token. All rights reserved.</p>
+                    <p>&copy; 2025 HABI Token. All rights reserved.</p>
                     <p>Built with 💚 for a greener planet</p>
                 </div>
             </div>
