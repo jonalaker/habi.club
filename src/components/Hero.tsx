@@ -26,10 +26,10 @@ export default function Hero() {
         };
 
         const timer = setTimeout(() => {
-            animateValue(0, 1000, 2000, (val) =>
+            animateValue(0, 1659, 2000, (val) =>
                 setStats((prev) => ({ ...prev, deeds: val }))
             );
-            animateValue(0, 500, 2000, (val) =>
+            animateValue(0, 837, 2000, (val) =>
                 setStats((prev) => ({ ...prev, holders: val }))
             );
             animateValue(0, 100, 2000, (val) =>

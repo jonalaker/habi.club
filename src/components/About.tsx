@@ -16,9 +16,9 @@ export default function About() {
                     />
                 </svg>
             ),
-            title: "Secure & Private",
+            title: "Private and Secure",
             description:
-                "AI and smart contracts work together to privately and securely award tokens automatically.",
+                "Your privacy on HABI’s isn’t just dependant on some ‘pinky promise’. AI and blockchain smart contracts work together to privately and securely award your tokens. HABI uses decentralised blockchain verification. No KYC, or requirement of your email connections, faces blurred automatically on pics, and ZKP: Zero Knowledge Proofs for your complete privacy. Just keep your Seed Phrase for ‘permission-less and loss-proof’ security",
         },
         {
             icon: (
@@ -38,7 +38,7 @@ export default function About() {
             ),
             title: "Instant Rewards",
             description:
-                "Submit your completed good deed and receive HABI tokens automatically to your wallet.",
+                "Submit pics of your completed good-deeds and receive HABI tokens automatically to your wallet. Thousands of Eco-friendly suppliers off goods and services are linking there Apps to HABI -- to instantly send HABI tokens to your wallet, when you make a purchase. A rapidly growing list of Eco- friendly suppliers invite you to use your HABI tokens to purchase goods and services (for part- or full payment)",
         },
         {
             icon: (
@@ -58,7 +58,7 @@ export default function About() {
             ),
             title: "Tradable Value",
             description:
-                "Now tradable and soon usable to access eco-friendly goods and services. Even buy and sell!",
+                "HABI tokens now trade-able! and usable to access Eco-friendly goods and services. After HABI’s ICO: Initial Coin Offering is launched- you can even buy and sell HABI for other tokens like BTC, ETH etc. or to your local currency! HABI is managed by it’s own DAO: Decentralised Autonomous Organisation--insuring fair governance, limited and reducing HABI token supply.",
         },
     ];
 
