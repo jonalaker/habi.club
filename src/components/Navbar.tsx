@@ -54,19 +54,19 @@ export default function Navbar() {
     }, [activeSection, isScrolled]);
 
     const navLinks = [
-        { href: "#home", label: "Home", id: "home" },
-        { href: "#about", label: "About", id: "about" },
-        { href: "#good-deeds", label: "Good Deeds", id: "good-deeds" },
-        { href: "#features", label: "Features", id: "features" },
-        { href: "#how-it-works", label: "How It Works", id: "how-it-works" },
-        { href: "#claim", label: "Claim Tokens", id: "claim" },
+        { href: "/#home", label: "Home", id: "home" },
+        { href: "/#about", label: "About", id: "about" },
+        { href: "/#good-deeds", label: "Good Deeds", id: "good-deeds" },
+        { href: "/#features", label: "Features", id: "features" },
+        { href: "/#how-it-works", label: "How It Works", id: "how-it-works" },
+        { href: "/#claim", label: "Claim Tokens", id: "claim" },
     ];
 
     return (
         <nav
             className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled
-                    ? "bg-slate-950/90 backdrop-blur-xl border-b border-white/5"
-                    : "bg-transparent"
+                ? "bg-slate-950/90 backdrop-blur-xl border-b border-white/5"
+                : "bg-transparent"
                 }`}
         >
             <div className="max-w-7xl mx-auto px-6 py-4">
@@ -99,8 +99,8 @@ export default function Navbar() {
                                 href={link.href}
                                 ref={(el) => { itemRefs.current[link.id] = el; }}
                                 className={`text-sm font-medium transition-colors py-1 ${activeSection === link.id
-                                        ? "text-emerald-400"
-                                        : "text-slate-300 hover:text-emerald-400"
+                                    ? "text-emerald-400"
+                                    : "text-slate-300 hover:text-emerald-400"
                                     }`}
                             >
                                 {link.label}
@@ -130,8 +130,8 @@ export default function Navbar() {
 
                 <div
                     className={`lg:hidden absolute top-full left-0 w-full bg-slate-900/95 backdrop-blur-xl border-b border-white/5 transition-all duration-300 ${isMobileMenuOpen
-                            ? "opacity-100 visible"
-                            : "opacity-0 invisible pointer-events-none"
+                        ? "opacity-100 visible"
+                        : "opacity-0 invisible pointer-events-none"
                         }`}
                 >
                     <div className="flex flex-col p-6 gap-4">
@@ -141,8 +141,8 @@ export default function Navbar() {
                                 href={link.href}
                                 onClick={() => setIsMobileMenuOpen(false)}
                                 className={`text-base font-medium transition-colors py-2 border-l-2 pl-4 ${activeSection === link.id
-                                        ? "text-emerald-400 border-emerald-400"
-                                        : "text-slate-300 hover:text-emerald-400 border-transparent"
+                                    ? "text-emerald-400 border-emerald-400"
+                                    : "text-slate-300 hover:text-emerald-400 border-transparent"
                                     }`}
                             >
                                 {link.label}

@@ -157,7 +157,7 @@ export default function Hero() {
 
                             {/* Token Image */}
                             <div className="absolute inset-0 flex items-center justify-center animate-float">
-                                <div className="relative w-40 h-40 sm:w-48 sm:h-48 lg:w-52 lg:h-52 rounded-full overflow-hidden glow-green-lg">
+                                <div className="relative w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden glow-green-lg">
                                     <Image
                                         src="/habi-logo.jpg"
                                         alt="HABI Token"

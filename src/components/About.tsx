@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function About() {
     const features = [
         {
@@ -79,6 +81,17 @@ export default function About() {
                         conscious behavior. Every good deed you do for the planet can now
                         earn you real value.
                     </p>
+                    <div className="mt-8">
+                        <Link
+                            href="/manifesto"
+                            className="inline-flex items-center justify-center px-6 py-3 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-semibold rounded-xl hover:bg-emerald-500/20 hover:-translate-y-0.5 transition-all group"
+                        >
+                            <span>Read More</span>
+                            <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </Link>
+                    </div>
                 </div>
 
                 {/* Feature Cards */}

@@ -3,11 +3,12 @@ import Link from "next/link";
 
 export default function Footer() {
     const quickLinks = [
-        { href: "#home", label: "Home" },
-        { href: "#about", label: "About" },
-        { href: "#good-deeds", label: "Good Deeds" },
-        { href: "#features", label: "Features" },
-        { href: "#claim", label: "Claim Tokens" },
+        { href: "/#home", label: "Home" },
+        { href: "/#about", label: "About" },
+        { href: "/#good-deeds", label: "Good Deeds" },
+        { href: "/#features", label: "Features" },
+        { href: "/#claim", label: "Claim Tokens" },
+        { href: "/manifesto", label: "Manifesto" },
     ];
 
     return (
