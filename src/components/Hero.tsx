@@ -159,7 +159,7 @@ export default function Hero() {
                             <div className="absolute inset-0 flex items-center justify-center animate-float">
                                 <div className="relative w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden glow-green-lg">
                                     <Image
-                                        src="/habi-logo.jpg"
+                                        src="/habi-logo1.jpg"
                                         alt="HABI Token"
                                         fill
                                         className="object-cover"
